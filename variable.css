@@ -1,0 +1,21 @@
+:root {
+  --primary-color: #b32274;
+  --secondary-color: #ffdaef;
+  --primary-font-color: #292527;
+  --secondary-font-color: #5c0f32;
+}
+
+body {
+  font-family: Google Sans, Roboto, arial, sans-serif;
+  background: content-box
+    radial-gradient(var(--secondary-font-color), var(--primary-color));
+  color: var(--secondary-color);
+}
+
+.navbar-purple {
+  background-color: whitesmoke;
+}
+
+.nav-link {
+  color: var(--primary-font-color);
+}

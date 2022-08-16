@@ -1,0 +1,25 @@
+/* .sisters {
+  border-radius: 10px;
+} */
+.mv-logo {
+  max-width: 250px;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+}
+h1 {
+  font-style: oblique;
+  text-align: center;
+  /* text-decoration: dotted underline; */
+}
+.introduction {
+  border: 1px dotted white;
+  border-radius: 5px;
+}
+.contact{
+  margin
+}
+
+.contact-button{
+  text-align: center;
+}
