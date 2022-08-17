@@ -1,25 +1,28 @@
-/* .sisters {
-  border-radius: 10px;
-} */
 .mv-logo {
   max-width: 250px;
   border-radius: 10px;
   display: block;
   margin: auto;
 }
+
 h1 {
   font-style: oblique;
   text-align: center;
-  /* text-decoration: dotted underline; */
-}
-.introduction {
-  border: 1px dotted white;
-  border-radius: 5px;
-}
-.contact{
-  margin
 }
 
-.contact-button{
+.introduction {
+  color: var(--primary-font-color);
   text-align: center;
+  background-color: #f3f9fb;
+  border-radius: 5px;
+  padding: 40px;
+}
+
+.contact-button {
+  text-align: center;
+}
+
+.contact-button:hover {
+  background-color: var(--secondary-color);
+  color: var(--primary-font-color);
 }
