@@ -19,3 +19,9 @@ body {
 .nav-link {
   color: var(--primary-font-color);
 }
+.mv-logo {
+  max-width: 250px;
+  border-radius: 10px;
+  display: block;
+  margin: auto;
+}
