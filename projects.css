@@ -1,0 +1,31 @@
+.project {
+  color: var(--primary-font-color);
+  text-align: center;
+  background-color: var(--tertiary-color);
+  border-radius: 10px;
+  margin: 100px auto;
+  box-shadow: 5px 5px lightgray;
+}
+
+.img-container {
+  padding: 50px;
+}
+
+.project-img {
+  border-radius: 10px;
+  max-width: 100%;
+  box-shadow: 5px 5px gray;
+}
+
+.project:nth-child(odd) {
+  background-color: var(--tertiary-color);
+}
+
+.project:nth-child(even) {
+  background-color: var(--secondary-color);
+}
+
+.text {
+  text-align: center;
+  padding: 50px;
+}
